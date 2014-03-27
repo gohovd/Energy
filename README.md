@@ -1,9 +1,14 @@
 Energy
 ======
 
-Web prosjekt for å lage en nettside med hjelp av source kontroll for å samarbeide med andre.
-ASD
+#####Gruppeprosjekt i webteknologi#####
 
-ballefrans
+lage en nettside med hjelp av source kontroll for å samarbeide med andre.
 
-Kva kalte du meg? Er skal fortelje deg at eg har vore med på over 300 hemmelege oppdrag i Afgannistan, og har over 500 konfirmerte konfirmantar.
+#####Gruppemedlemmer#####
+
+Jens Vingen, Gøran H. Strønstad, Ole Martin Bratteberg, Jarle Vartdal, Terje Eik, Erik Espenakk.
+
+#####Tema#####
+
+En amerikansk tilnærming til nettsider laget for energidrikk markedet. 
