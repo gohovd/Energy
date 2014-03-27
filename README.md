@@ -12,3 +12,5 @@ Jens Vingen, Gøran H. Strønstad, Ole Martin Bratteberg, Jarle Vartdal, Terje E
 #####Tema#####
 
 En amerikansk tilnærming til nettsider laget for energidrikk markedet. 
+
+testtesttesttest
