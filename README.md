@@ -12,3 +12,7 @@ Jens Vingen, Gøran H. Strønstad, Ole Martin Bratteberg, Jarle Vartdal, Terje E
 #####Tema#####
 
 En amerikansk tilnærming til nettsider laget for energidrikk markedet. 
+
+
+bestemor e best i test  på fest me en hest å skinnvæst me ÆN præst ingen protest
+ok
