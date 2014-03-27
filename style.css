@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 25, 2014, 1:05:44 PM
+    Author     : Ole-Martin, Jens Vingen, Jarle Vartdal, Gøran H. Strønstad.
+*/
+
+body{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    font-family: calibri;
+}
+
+h3 { 	background-color: #1F1F1F;
+                width: 100%;
+		//position: fixed;
+		//top: 150px;
+		//padding: 3px;
+		//border: 2px solid white; 
+                //border-radius: 25px;
+	}
+	
+header{
+	width: 100%;
+        background-color:#1F1F1F;
+        height: 200px;
+	font-family: fixedsys;
+	font-size: 200%;
+        position: top;
+}
+
+header img { 
+    
+ }
+ 
+ #headercontainer{
+     width: 60%;
+     height: 200px;
+     position: relative;
+     margin: auto;
+ }
+ 
+ headerleft{
+     float: left;
+     word-spacing: 100px;
+     //padding-left: 400px;
+ }
+ 
+ headerright{
+     float: right;
+     word-spacing: 100px;
+     //padding-right: 400px;
+ }
+ 
+ 
+
+header a:link { text-decoration: none; color: white }
+header a:visited { text-decoration: none; color: white}
+header a:hover { text-decoration: none; color: orange;}
+
+
+
+#leftcolumn {	float: left;
+				width: 50%;
+
+}
+
+
+#rightcolumn {	float: right;
+				width: 35%;
+				position: relative;
+				right: 100px;
+				font-family: arial;
+}
+
+
+#wrapper { 
+    min-height: 200px;
+    background-color: #efefef;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+
+content { 	
+    background-color: #efefef;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    color: #555;
+}
+
+content img{
+    float: right;
+}
+
+footer{
+        height: 25px;
+	font-family: calibri;
+	font-style: italic;
+	color: black;
+	background-color: #f1f1f1;
+	clear: both;
+        bottom: 0px;
+        position: fixed;
+        width: 100%;
+        padding: 10px;
+}
+
