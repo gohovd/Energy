@@ -26,3 +26,5 @@ Commit
 
 
 La inn denne kommentaren i Netbeans, auto- supplied til GIT?????
+
+Ny test
