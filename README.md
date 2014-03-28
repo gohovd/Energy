@@ -23,3 +23,6 @@ Hei Gøran
 Jens's comment
 Commit
 >>>>>>> 40588a0722e563b85c880c2a24e567f6e9d2d447
+
+
+La inn denne kommentaren i Netbeans, auto- supplied til GIT?????
