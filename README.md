@@ -1,4 +1,4 @@
-Energy
+﻿Energy
 ======
 
 #####Gruppeprosjekt i webteknologi#####
@@ -15,3 +15,5 @@ En amerikansk tilnærming til nettsider laget for energidrikk markedet.
 
 
 1234567890
+
+Hei Gøran
