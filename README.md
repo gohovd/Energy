@@ -14,3 +14,5 @@ Jens Vingen, Gøran H. Strønstad, Ole Martin Bratteberg, Jarle Vartdal, Terje E
 En amerikansk tilnærming til nettsider laget for energidrikk markedet. 
 
 kjeks
+
+jalla
