@@ -13,15 +13,15 @@ body{
     width: 100%;
     margin: 0;
     text-align: center;
-    background-color: #FFF2E7;
+    background-color: #FFF2E7; //#4B4D52
     font-family: calibri;
-    font-color: #4B4D52;
+    color: #4B4D52;
 }
 
 	
 header{
 	width: 100%;
-        background-color:#4B4D52;
+        background-color:#0E0021;
         height: 200px;
 	font-family: fixedsys;
 	font-size: 200%;
@@ -29,29 +29,31 @@ header{
 
 header img { 
     //Oppdaterast når det kjem ny logo
+    width: 20%;
  }
  
  #headercontainer{
      width: 60%;
      height: 200px;
-     position: relative;
      margin: auto;
  }
  
  headerleft{
      float: left;
      word-spacing: 100px;
+     width: 35%;
  }
  
  headerright{
      float: right;
      word-spacing: 100px;
+     width: 35%;
  }
  
  
 
-header a:link { text-decoration: none; color: white }
-header a:visited { text-decoration: none; color: white}
+header a:link { text-decoration: none; color: #FFF2E7 }
+header a:visited { text-decoration: none; color: #FFF2E7}
 header a:hover { text-decoration: none; color: #DE8642;}
 
 
@@ -70,21 +72,22 @@ header a:hover { text-decoration: none; color: #DE8642;}
 }
 
 
-#wrapper { 
-    min-height: 200px;
+#wrapper {
+    background-color: #FFF2E7;
     //background-color: #efefef;
     width: 100%;
     text-align: center;
     margin: auto;
+    min-height: 50%;
 }
 
 
-#content { 	
-    background-color: #4B4D52;
+#content {
     width: 40%;
     margin: auto;
     text-align: left;
-    color: #555;
+    color: #4B4D52;
+    padding: 10px;
 }
 
 content img{
@@ -96,8 +99,8 @@ footer{
         height: 25px;
 	font-family: calibri;
 	font-style: italic;
-	color: black;
-	background-color: #4B4D52;
+	color: #FFF2E7;
+	background-color: #0E0021;
 	clear: both;
         bottom: 0px;
         position: fixed;
@@ -105,3 +108,62 @@ footer{
         padding: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slider {
+    width: 215px;
+    height: 383px;
+    position: relative;
+    overflow: hidden;
+    background: #434343;
+}
+ 
+#slider [id^='image']:target img {
+    top: 0;  
+}
+ 
+#slider [id^="image"] img {
+    position: absolute;
+    top: -383px;
+    border: 0;
+    -moz-transition: top 0.5s ease-in;
+    -ms-transition: top 0.5s ease-in;
+    -webkit-transition: top 0.5s ease-in;
+    -o-transition: top 0.5s ease-in;
+}
+ 
+
+#slider [id^='image']:target a {
+    background: #fff;
+    border: 3px solid #333;
+    width: 10px;
+    height: 10px;
+}
+ 
+.slider-nav {
+    background: #333;
+    width: 16px;
+    z-index: 9999;
+    height: 16px;
+    box-shadow: inset 0px 2px 10px rgba(0,0,0,0.3), 0px 0px 20px rgba(255,255,255,0.4);
+    border-radius: 32px;
+    position: absolute;
+    bottom: 15px;
+}
+ 
+#image-1 .slider-nav { right: 80px; }
+#image-2 .slider-nav { right: 60px; }
+#image-3 .slider-nav { right: 40px; }
+#image-4 .slider-nav { right: 20px; }
