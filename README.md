@@ -34,3 +34,5 @@ Ole TEst
 Hei
 
 Hei igjen
+
+JENS E HOMO! lolz, bere tøysa!
