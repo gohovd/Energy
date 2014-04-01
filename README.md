@@ -35,4 +35,4 @@ Hei
 
 Hei igjen
 
-JENS E HOMO! lolz, bere tøysa!
+JENS E HOMO! lolz, bere tøysa!  regwgdfgrsddfgs
