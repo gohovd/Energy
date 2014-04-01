@@ -224,6 +224,9 @@ pip-log.txt
 *.iml
 *.iws
 
+#netbeans
+nbproject/
+
 # Mac
 .DS_Store
 
