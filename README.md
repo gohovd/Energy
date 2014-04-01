@@ -1,4 +1,4 @@
-﻿Energy
+﻿﻿﻿Energy
 ======
 
 #####Gruppeprosjekt i webteknologi#####
@@ -35,4 +35,5 @@ Hei
 
 Hei igjen
 
-JENS E HOMO! lolz, bere tøysa!  regwgdfgrsddfgswrteyetwr
+
+Pøh, e du det tulla lolz
