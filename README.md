@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿﻿Energy
 ======
 
@@ -13,27 +14,24 @@ Jens Vingen, Gøran H. Strønstad, Ole Martin Bratteberg, Jarle Vartdal, Terje E
 
 En amerikansk tilnærming til nettsider laget for energidrikk markedet. 
 
-
-1234567890
-
-<<<<<<< HEAD
-Hei Gøran
+kjeks
 =======
+﻿﻿Energy
+======
 
-Jens's comment
-Commit
->>>>>>> 40588a0722e563b85c880c2a24e567f6e9d2d447
+#####Gruppeprosjekt i webteknologi#####
 
+lage en nettside med hjelp av source kontroll for å samarbeide med andre.
 
-La inn denne kommentaren i Netbeans, auto- supplied til GIT?????
+#####Gruppemedlemmer#####
 
-Funker dette :) :)
+Jens Vingen, Gøran H. Strønstad, Ole Martin Bratteberg, Jarle Vartdal, Terje Eik, Erik Espenakk.
 
+#####Tema#####
 
-Ole TEst
-Hei
+En amerikansk tilnærming til nettsider laget for energidrikk markedet. 
 
-Hei igjen
+kjeks
 
-
-Pøh, e du det tulla lolz
+jalla
+>>>>>>> 0150216fe1a68074f336e5f6935d4b447d3f0011
