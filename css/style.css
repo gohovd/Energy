@@ -31,10 +31,11 @@ header{
     font-size: 200%;
 }
 header a{
-    text-decoration: none; color: white
+    text-decoration: none; color: white;
+    padding: 5px;
 }
 header a:hover {
-    color: orange;
+    color: #e1edf7;
 }
 
 nav{
@@ -43,6 +44,7 @@ nav{
 nav ul{
     margin-top: 190px;
     background-color: #212122;
+    //padding: 5px 0px 5px;
 }
 nav ul li{
     display: inline-block;
@@ -98,15 +100,15 @@ footer{
 	font-family: callibri;
 	font-style: italic;
 
-    color: black;
-	background-color: #7DA0BD;
+    color: #c2dbef;
+	background-color: #153651;
 	clear: both;
 
     /*max-width: 900px;*/
     width: 100%;
     padding:10px 0px;
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
 
 }
@@ -128,3 +130,19 @@ footer{
         padding-left: 0px;
     }
 }
+
+
+
+
+
+
+
+#slideShowImages { /* The following CSS rules are optional. */
+      border: 1px gray solid;
+      background-color: lightgray;
+    }   
+  
+    #slideShowImages img { /* The following CSS rules are optional. */
+      border: 0.8em black solid;
+      padding: 3px;
+    }   
