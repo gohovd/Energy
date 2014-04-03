@@ -4,6 +4,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="../css/Reset.css">
         <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/formStyle.css">
         <title>Energy</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
@@ -26,7 +27,38 @@
             </header>
 
             <div id="content">
-                <script type="text/javascript" src="http://form.jotformeu.com/jsform/40925010313338"></script>
+
+
+                <form class="form" name="htmlform" method="post" action="http://www.wows.at/html_form_send.php">
+
+                    <fieldset class="group">
+                        <input  type="text" name="first_name" placeholder="Firstname" maxlength="50" size="30">
+
+
+
+                        <input  type="text" name="last_name" placeholder="Surname" maxlength="50" size="30">
+
+
+
+                        <input  type="email" name="fromemail" placeholder="Email address" maxlength="80" size="30">
+
+
+
+                        <input  type="text" name="topic" placeholder="Topic" maxlength="80" size="30">
+
+
+
+                    </fieldset>
+
+                    <textarea class="message" name="comments" placeholder="Comments" maxlength="1000" cols="25" rows="6"></textarea>
+
+
+                    <input class="button" type="submit" value="Submit">
+
+
+                   </form>
+
+
             </div>
 
             <footer>

@@ -1,0 +1,53 @@
+form{
+    display: block;
+    text-align: center;
+}
+
+.form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    width: 80%;
+}
+.form .group input{
+    display: block;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+    position: relative;
+    top: -1px;
+    width: 45%;
+}
+.form .group input:first-child{
+    border-radius: 6px 6px 0 0;
+}
+.form .group input:last-child{
+    border-radius: 0 0 6px 6px;
+}
+.form .message{
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.1);
+    width: 100%;
+    border-radius: 6px;
+}
+.form .button{
+    font-family: inherit;
+    font-size: 100%;
+    padding: .5em 1em;
+    border: 1px solid #999;
+    border: 0 rgba(0,0,0,0);
+    background-color: #0078e7;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.form .button:hover,.form .button:focus{
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.05)),to(rgba(0,0,0,.1)));
+    background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,.05) 0,rgba(0,0,0,.1));
+    background-image: -o-linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+    background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
+}
