@@ -10,7 +10,7 @@ and open the template in the editor.
 
 body{
     text-align: center;
-    background-color: #C2E3FF;
+    background-color: #2A6BA2;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 #wrapper{
     overflow: hidden;
-    /*background-color: #C2E3FF;*/
+    background-color: #C2E3FF;
     height: auto;
     width: 100%;
     /*max-width: 900px;*/
