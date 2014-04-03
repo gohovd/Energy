@@ -11,7 +11,11 @@ and open the template in the editor.
 body{
     text-align: center;
     background-color: #C2E3FF;
-    font-family: callibri;
+    font-family: arial;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 10px 10px;
 }
 
 #wrapper{
@@ -23,6 +27,8 @@ body{
     margin: 0 auto;
 }
 
+
+/*Navigation bar*/
 header{
     background-color: #2A6BA2;
     width: 100%;
@@ -63,27 +69,8 @@ nav ul li:nth-child(3){
     background: url("../grafikk/logov4.png") no-repeat;
     background-position: top,center;
 }
+/*Navigation bar*/
 
-h3{
-    background-color: #1F1F1F;
-    width: 100%;
-    /*position: fixed;*/
-    /*top: 150px;*/
-    /*padding: 3px;*/
-    /*border: 2px solid white; */
-    /*border-radius: 25px;*/
-}
-
-#leftcolumn {	float: left;
-    width: 50%;
-}
-
-#rightcolumn {	float: right;
-    width: 35%;
-    position: relative;
-    right: 100px;
-    font-family: arial;
-}
 
 #content {
     padding-top: 100px;
@@ -93,9 +80,33 @@ h3{
     margin: 0 auto;
 }
 
+#leftcolumn {
+    float: left;
+    width: 50%;
+}
+#rightcolumn {
+    float: right;
+    width: 50%;
+}
+
+#slideshow {
+    position: relative;
+    height: 300px;
+}
+#slideshow img {
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#slideshow > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
 footer{
     max-height: 25px;
-	font-family: calibri;
 	font-style: italic;
 
     color: #c2dbef;
@@ -108,14 +119,11 @@ footer{
 
     position: relative;
     bottom: 0;
-
 }
 
 @media only screen and (max-width: 700px) {
-    /*nav ul {*/
-        /*padding-top: 100px;*/
-    /*}*/
     #content{
+        width: 90%;
         padding-top: 250px;
     }
     nav ul li{
@@ -127,21 +135,8 @@ footer{
     nav ul li:nth-child(3){
         padding-left: 0px;
     }
-}
-
-#slideshow {
-    margin: 50px auto;
-    position: relative;
-    width: 700px;
-    height: 300px;
-    padding: 0px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
-}
-
-#slideshow > div {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    #leftcolumn,#rightcolumn{
+        width: 100%;
+        float: left;
+    }
 }
