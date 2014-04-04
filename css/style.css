@@ -49,7 +49,8 @@ nav{
 }
 nav ul{
     margin-top: 190px;
-    background-color: #212122;
+    /*background-color: #212122;*/
+    background-color: #003366;
 }
 nav ul li{
     display: inline-block;
@@ -67,7 +68,7 @@ nav ul li:nth-child(3){
 
     position: absolute;
     top: 0;
-    background: url("../grafikk/logov4.png") no-repeat;
+    background: url("../grafikk/logov7.png") no-repeat;
     background-position: top,center;
 }
 /*Navigation bar*/
@@ -110,7 +111,7 @@ footer{
 	font-style: italic;
 
     color: #c2dbef;
-    background-color: #153651;
+    background-color: #003366;
 	clear: both;
 
     /*max-width: 900px;*/
