@@ -9,13 +9,18 @@ and open the template in the editor.
 */
 
 body{
-    text-align: center;
+    text-align: left;
     background-color: #2A6BA2;
+    font-family: Palatino, serif;
 }
 
 h1,h2,h3,h4,h5,h6,p{
     padding: 10px 10px;
-    font-family: arial;
+}
+
+h1{
+    text-align: left;
+    font-size: 3em;
 }
 
 #wrapper{
@@ -34,7 +39,8 @@ header{
     width: 100%;
     height: 190px;
     font-family: fixedsys;
-    font-size: 200%;
+    font-size: 2.0em;
+    text-align: center;
 
 }
 header a{
@@ -54,6 +60,7 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
+    padding: 3px 0px 3px 0px;
 }
 nav ul li:nth-child(2){
     padding-right: 70px;
@@ -78,17 +85,17 @@ nav ul li:nth-child(3){
     padding-top: 100px;
     min-height: 200px;
     width: 700px;
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
 }
 
 #leftcolumn {
     float: left;
-    width: 50%;
+    width: 48%;
 }
 #rightcolumn {
     float: right;
-    width: 50%;
+    width: 48%;
 }
 
 #slideshow {
@@ -120,6 +127,7 @@ footer{
 
     position: relative;
     bottom: 0;
+    text-align: center;
 }
 
 
@@ -155,10 +163,21 @@ table {
     border-radius:5px;
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-
+    
+    iframe {
+        padding: 10px;
+    }
 }
 
-th, td {padding:18px 28px 18px; text-align:center; }
+td img {
+    width: 50px;
+    height: 91px;
+}
+
+th, td {padding:18px 28px 18px; text-align:center;
+        
+
+}
 
 th {padding-top:22px; text-shadow: 1px 1px 1px #fff; background:#e8eaeb;}
 
@@ -169,4 +188,3 @@ tr.odd-row td {background:#f6f6f6;}
 td.first, th.first {text-align:left}
 
 	td.last {border-right:none;}
-	
